@@ -1,0 +1,267 @@
+{
+    "classname": "halfdonutup",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d4a13cb203894161808d73b1099a5a02",
+                    "paramList": [
+                        {
+                            "name": "dataSet"
+                        }
+                    ],
+                    "propertyKey": "createChart",
+                    "pw": {
+                        "displayName": "createChart",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u85686af86ec462b921c90c852017175",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Title",
+                "Legends"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "Half Donut Up",
+                    "group": "Title",
+                    "kuid": "dfd351b994d740999bd3976969544743",
+                    "originalPropertyKey": "chartTitle",
+                    "propertyIndex": 1,
+                    "propertyKey": "chartTitle",
+                    "pw": {
+                        "displayName": "Chart Title",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u85686af86ec462b921c90c852017175",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "Legends",
+                    "kuid": "d0e2567fe00841a2ad14888197cd8528",
+                    "originalPropertyKey": "enableLegend",
+                    "propertyIndex": 1,
+                    "propertyKey": "enableLegend",
+                    "pw": {
+                        "displayName": "Enable Legends",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "u85686af86ec462b921c90c852017175",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "#ffffff",
+                    "group": "General",
+                    "kuid": "bd9eeb52e133475790d357dc7b7b641e",
+                    "originalPropertyKey": "bgColor",
+                    "propertyIndex": 1,
+                    "propertyKey": "bgColor",
+                    "pw": {
+                        "displayName": "Background Color",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u85686af86ec462b921c90c852017175",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": {
+                        "data": [
+                            {
+                                "colorCode": "#1B9ED9",
+                                "label": "data1",
+                                "value": "60"
+                            },
+                            {
+                                "colorCode": "#97CDED",
+                                "label": "data2",
+                                "value": "20"
+                            },
+                            {
+                                "colorCode": "#76C044",
+                                "label": "data3",
+                                "value": "40"
+                            },
+                            {
+                                "colorCode": "#E8672B",
+                                "label": "data4",
+                                "value": "60"
+                            }
+                        ],
+                        "schema": [
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Label",
+                                "columnHeaderType": "text",
+                                "columnID": "label",
+                                "columnOnClick": null,
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "c8434b6cbed443e6a6167d99e8c3bdcb"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Value",
+                                "columnHeaderType": "text",
+                                "columnID": "value",
+                                "columnOnClick": null,
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "cddb65c1fe8c429bb5a4b5f93bd171ef"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Color Code",
+                                "columnHeaderType": "text",
+                                "columnID": "colorCode",
+                                "columnOnClick": null,
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "f722303b71a8439eae528d9af9856f30"
+                            }
+                        ]
+                    },
+                    "group": "General",
+                    "kuid": "a3c7d3d9d6984622991bf2f35137e42c",
+                    "originalPropertyKey": "chartData",
+                    "propertyIndex": 1,
+                    "propertyKey": "chartData",
+                    "pw": {
+                        "displayName": "Chart Data",
+                        "uiRepresentation": "Label-DataGrid"
+                    },
+                    "srcWgtKUID": "u85686af86ec462b921c90c852017175",
+                    "type": "data grid",
+                    "value": 3
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "General",
+                    "kuid": "dc6c181b26a346ebaa6da26e39cfcdcc",
+                    "originalPropertyKey": "enableChartAnimation",
+                    "propertyIndex": 1,
+                    "propertyKey": "enableChartAnimation",
+                    "pw": {
+                        "displayName": "Enable Chart Animation",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "u85686af86ec462b921c90c852017175",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "12",
+                    "group": "Title",
+                    "kuid": "fe09ae1d678f42b0bc58dc218f17aaca",
+                    "originalPropertyKey": "titleFontSize",
+                    "propertyIndex": 2,
+                    "propertyKey": "titleFontSize",
+                    "pw": {
+                        "displayName": "Title Font Size",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u85686af86ec462b921c90c852017175",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "8",
+                    "group": "Legends",
+                    "kuid": "bd543f25b2244751b591a93d53e448dd",
+                    "originalPropertyKey": "legendFontSize",
+                    "propertyIndex": 2,
+                    "propertyKey": "legendFontSize",
+                    "pw": {
+                        "displayName": "Legend Font Size",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u85686af86ec462b921c90c852017175",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "General",
+                    "kuid": "cfff819a103942bfa8514a9b0a5a6df5",
+                    "originalPropertyKey": "enableStaticPreview",
+                    "propertyIndex": 2,
+                    "propertyKey": "enableStaticPreview",
+                    "pw": {
+                        "displayName": "Enable Static Preview",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "u85686af86ec462b921c90c852017175",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "#000000",
+                    "group": "Title",
+                    "kuid": "dfce8e14bd5d4409a68efea54ee0be8c",
+                    "originalPropertyKey": "titleFontColor",
+                    "propertyIndex": 3,
+                    "propertyKey": "titleFontColor",
+                    "pw": {
+                        "displayName": "Title Font Color",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u85686af86ec462b921c90c852017175",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "#000000",
+                    "group": "Legends",
+                    "kuid": "i747f9b65d5b442294c781ed8def6abc",
+                    "originalPropertyKey": "legendFontColor",
+                    "propertyIndex": 3,
+                    "propertyKey": "legendFontColor",
+                    "pw": {
+                        "displayName": "Legend Font Color",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u85686af86ec462b921c90c852017175",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}
